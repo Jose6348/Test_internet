@@ -1,0 +1,50 @@
+📶 Teste de Velocidade de Internet
+Este é um aplicativo simples de teste de velocidade de internet construído com Streamlit e Speedtest. Ele permite que você verifique rapidamente a velocidade de download, upload e ping da sua conexão de internet diretamente no navegador.
+
+🚀 Funcionalidades
+Mede a Velocidade de Download (Mbps)
+Mede a Velocidade de Upload (Mbps)
+Mede o Ping (ms)
+Interface moderna e amigável, com feedback visual para cada métrica de velocidade
+
+📋 Pré-requisitos
+Para executar este projeto, você precisará ter o Python 3.7 ou superior instalado em seu ambiente. Além disso, será necessário instalar as seguintes bibliotecas:
+
+Streamlit: Para criar a interface web
+Speedtest-cli: Para realizar o teste de velocidade
+
+⚙️ Instalação
+Clone o repositório ou faça o download dos arquivos:
+
+git clone https://github.com/seuusuario/teste-velocidade-internet.git
+cd teste-velocidade-internet
+
+Crie um ambiente virtual (opcional, mas recomendado):
+python -m venv env
+source env/bin/activate  # No Windows, use `env\Scripts\activate`
+
+Instale as dependências:
+pip install streamlit speedtest-cli
+
+▶️ Executando o Projeto
+Para iniciar o aplicativo, use o comando abaixo no terminal:
+streamlit run main.py
+Isso abrirá automaticamente o aplicativo em seu navegador padrão. Se não abrir, acesse o link fornecido no terminal, que geralmente será http://localhost:8501.
+
+📷 Demonstração
+A interface do aplicativo é simples e intuitiva:
+Clique no botão "Iniciar Teste" para começar a medição.
+As velocidades de download, upload e o ping serão exibidos em cartões com um design elegante.
+As barras de progresso mostrarão o desempenho relativo em relação a um limite pré-definido de 200 Mbps.
+
+🛠 Estrutura do Código
+main.py: Contém o código principal do aplicativo, incluindo o layout da interface e as funções de teste de velocidade.
+README.md: Este arquivo, que explica como configurar e executar o projeto.
+
+📄 Licença
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+
+💬 Contato
+Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
+Seu Nome: Jfalasco88@gmail.com
+GitHub: https://github.com/Jose6348
